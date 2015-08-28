@@ -1,10 +1,12 @@
 
 var spritesheet = require('./lib/spritesheet.js');
+var fs = require('fs');
 
 function test() {
-	var s = new spritesheet.Spritesheet("gfx", "static");
-	s.run();
-	return true;
+	fs.watch('gfx', function(ev, fn) {
+		console.log(ev);
+		spritesheet.compile("gfx", "static");
+	});
 };
 
 test();
