@@ -1,16 +1,21 @@
 {
-	"name": "gamewiz",
+	"name": "gamesprites",
 	"version": "0.0.1",
-	"description": "make games quick",
+	"description": "make spritesheets for use in games",
+	"keywords": "game sprites",
 	"main": "index.js",
 	"scripts": {
 		"start" : "node index.js",
 		"test": "test"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mcccclean/node-gamesprites.git"
+	},
 	"dependencies": {
-		"async": "",
-		"jimp": ""
+		"async": "*",
+		"jimp": ">= 0.2.4"
 	},
 	"author": "mcccclean",
-	"license": "ISC"
+	"license": "MIT"
 }
