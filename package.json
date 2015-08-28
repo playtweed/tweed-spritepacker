@@ -1,0 +1,16 @@
+{
+	"name": "gamewiz",
+	"version": "0.0.1",
+	"description": "make games quick",
+	"main": "index.js",
+	"scripts": {
+		"start" : "node index.js",
+		"test": "test"
+	},
+	"dependencies": {
+		"async": "",
+		"jimp": ""
+	},
+	"author": "mcccclean",
+	"license": "ISC"
+}
