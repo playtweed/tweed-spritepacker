@@ -1,6 +1,6 @@
 {
   "name": "gamesprites",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "make spritesheets for use in games",
   "keywords": "game sprites",
   "main": "index.js",
