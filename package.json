@@ -1,21 +1,21 @@
 {
-	"name": "gamesprites",
-	"version": "0.0.1",
-	"description": "make spritesheets for use in games",
-	"keywords": "game sprites",
-	"main": "index.js",
-	"scripts": {
-		"start" : "node index.js",
-		"test": "test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mcccclean/node-gamesprites.git"
-	},
-	"dependencies": {
-		"async": "*",
-		"jimp": ">= 0.2.4"
-	},
-	"author": "mcccclean",
-	"license": "MIT"
+  "name": "gamesprites",
+  "version": "0.0.2",
+  "description": "make spritesheets for use in games",
+  "keywords": "game sprites",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcccclean/node-gamesprites.git"
+  },
+  "dependencies": {
+    "async": "*",
+    "jimp": ">= 0.2.4"
+  },
+  "author": "mcccclean",
+  "license": "MIT"
 }
