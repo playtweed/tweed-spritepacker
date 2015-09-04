@@ -9,5 +9,5 @@ function testwatch() {
 };
 
 module.exports = {
-	compile = spritesheet.compile
+	compile: spritesheet.compile
 };
