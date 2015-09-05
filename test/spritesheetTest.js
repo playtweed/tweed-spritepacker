@@ -30,5 +30,25 @@ describe("spritesheet", function() {
 				done();
 			});
 		});
+		describe("complex sheet", function() {
+			var err;
+			var result;
+			before(function(before_done) {
+				testdir("animations", function(e, r) {
+					err = e;
+					result = r;
+					before_done();
+				});
+			});
+
+			it("should not have an error", function(done) {
+				expect(err).to.equal(null);
+				done();
+			});
+			it("should generate an animation", function(done) {
+				expect(result.spriteCount).to.equal(5);
+				done();
+			});
+		});
 	});
 });
