@@ -49,6 +49,10 @@ describe("spritesheet", function() {
 				expect(result.spriteCount).to.equal(5);
 				done();
 			});
+			
+			it("should default to center offset");
+			it("should register top-left offset from suffix");
+			it("should register specified framerate from suffix");
 		});
 	});
 });
